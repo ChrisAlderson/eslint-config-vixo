@@ -1,0 +1,81 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "plugin:flowtype/recommended"
+  ],
+  "env": {
+    "mocha": true
+  },
+  "plugins": [
+    "flowtype",
+    "json"
+  ],
+  "rules": {
+    "padded-blocks": ["error", {
+      "classes": "always"
+    }],
+    "space-before-function-paren": ["error", {
+      "named": "never"
+    }],
+
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-spacing": "error",
+    "no-confusing-arrow": ["error", {
+      "allowParens": true
+    }],
+    "no-duplicate-imports": "error",
+    "no-useless-computed-key": "error",
+    "no-useless-constructor": "error",
+    "no-useless-rename": "error",
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": ["error", {
+      "array": true,
+      "object": true
+    }],
+    "prefer-numeric-literals": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "require-await": "error",
+    "rest-spread-spacing": ["error"],
+    "sort-imports": "error",
+    "template-curly-spacing": ["error", "never"],
+
+    "max-depth": ["error", 4],
+    "max-len": ["error", 80, 2, {
+      "ignoreComments": true,
+      "ignoreTrailingComments": true,
+      "ignoreUrls": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreRegExpLiterals": true
+    }],
+    "no-bitwise": ["error", {
+      "int32Hint": true
+    }],
+    "no-console": "error",
+    "no-else-return": "error",
+    "no-implicit-coercion": "error",
+    "no-lonely-if": "error",
+    "padding-line-between-statements": ["error", {
+      "blankLine": "always",
+      "prev": "*",
+      "next": "return"
+    }],
+    "quote-props": ["error", "consistent-as-needed"],
+    "radix": "error",
+    "require-jsdoc": ["error", {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true,
+        "ArrowFunctionExpression": true
+      }
+    }],
+    "valid-jsdoc": "error"
+  }
+}
