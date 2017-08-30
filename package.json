@@ -18,10 +18,12 @@
   "devDependencies": {
     "chai": "^4.1.1",
     "eslint": "^4.5.0",
+    "eslint-index": "^1.4.0",
     "mocha": "^3.5.0"
   },
   "license": "MIT",
   "scripts": {
+    "show-rules": "./node_modules/.bin/eslint-index eslintrc.json",
     "test": "./node_modules/.bin/mocha"
   },
   "keywords": [
