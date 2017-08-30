@@ -21,14 +21,10 @@
     }],
 
     "arrow-parens": ["error", "as-needed"],
-    "arrow-spacing": "error",
     "no-confusing-arrow": ["error", {
       "allowParens": true
     }],
     "no-duplicate-imports": "error",
-    "no-useless-computed-key": "error",
-    "no-useless-constructor": "error",
-    "no-useless-rename": "error",
     "no-var": "error",
     "object-shorthand": "error",
     "prefer-arrow-callback": "error",
@@ -42,9 +38,7 @@
     "prefer-spread": "error",
     "prefer-template": "error",
     "require-await": "error",
-    "rest-spread-spacing": ["error"],
     "sort-imports": "error",
-    "template-curly-spacing": ["error", "never"],
 
     "max-depth": ["error", 4],
     "max-len": ["error", 80, 2, {
@@ -58,7 +52,6 @@
     "no-bitwise": ["error", {
       "int32Hint": true
     }],
-    "no-console": "error",
     "no-else-return": "error",
     "no-implicit-coercion": "error",
     "no-lonely-if": "error",
