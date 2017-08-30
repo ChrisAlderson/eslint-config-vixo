@@ -13,8 +13,37 @@
     "json"
   ],
   "rules": {
+    "getter-return": "error",
+    "no-await-in-loop": "error",
+    "valid-jsdoc": "error",
+
+    "no-else-return": "error",
+    "no-implicit-coercion": "error",
+    "no-param-reassign": "error",
+    "radix": "error",
+    "require-await": "error",
+
+    "max-depth": ["error", 4],
+    "max-len": ["error", 80, 2, {
+      "ignoreComments": false,
+      "ignoreTrailingComments": true,
+      "ignoreUrls": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreRegExpLiterals": true
+    }],
+    "no-lonely-if": "error",
     "padded-blocks": ["error", {
       "classes": "always"
+    }],
+    "quote-props": ["error", "consistent-as-needed"],
+    "require-jsdoc": ["error", {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true,
+        "ArrowFunctionExpression": true
+      }
     }],
     "space-before-function-paren": ["error", {
       "named": "never"
@@ -36,34 +65,6 @@
     "prefer-numeric-literals": "error",
     "prefer-rest-params": "error",
     "prefer-spread": "error",
-    "prefer-template": "error",
-    "require-await": "error",
-    
-    "getter-return": "error",
-    "max-depth": ["error", 4],
-    "max-len": ["error", 80, 2, {
-      "ignoreComments": false,
-      "ignoreTrailingComments": true,
-      "ignoreUrls": true,
-      "ignoreStrings": true,
-      "ignoreTemplateLiterals": true,
-      "ignoreRegExpLiterals": true
-    }],
-    "no-await-in-loop": "error",
-    "no-else-return": "error",
-    "no-implicit-coercion": "error",
-    "no-lonely-if": "error",
-    "no-param-reassign": "error",
-    "quote-props": ["error", "consistent-as-needed"],
-    "radix": "error",
-    "require-jsdoc": ["error", {
-      "require": {
-        "FunctionDeclaration": true,
-        "MethodDefinition": true,
-        "ClassDeclaration": true,
-        "ArrowFunctionExpression": true
-      }
-    }],
-    "valid-jsdoc": "error"
+    "prefer-template": "error"
   }
 }
