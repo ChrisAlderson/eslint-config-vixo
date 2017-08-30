@@ -38,7 +38,8 @@
     "prefer-spread": "error",
     "prefer-template": "error",
     "require-await": "error",
-
+    
+    "getter-return": "error",
     "max-depth": ["error", 4],
     "max-len": ["error", 80, 2, {
       "ignoreComments": false,
@@ -48,9 +49,11 @@
       "ignoreTemplateLiterals": true,
       "ignoreRegExpLiterals": true
     }],
+    "no-await-in-loop": "error",
     "no-else-return": "error",
     "no-implicit-coercion": "error",
     "no-lonely-if": "error",
+    "no-param-reassign": "error",
     "quote-props": ["error", "consistent-as-needed"],
     "radix": "error",
     "require-jsdoc": ["error", {
