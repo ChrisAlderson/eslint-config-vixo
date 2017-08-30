@@ -38,7 +38,6 @@
     "prefer-spread": "error",
     "prefer-template": "error",
     "require-await": "error",
-    "sort-imports": "error",
 
     "max-depth": ["error", 4],
     "max-len": ["error", 80, 2, {
@@ -49,17 +48,9 @@
       "ignoreTemplateLiterals": true,
       "ignoreRegExpLiterals": true
     }],
-    "no-bitwise": ["error", {
-      "int32Hint": true
-    }],
     "no-else-return": "error",
     "no-implicit-coercion": "error",
     "no-lonely-if": "error",
-    "padding-line-between-statements": ["error", {
-      "blankLine": "always",
-      "prev": "*",
-      "next": "return"
-    }],
     "quote-props": ["error", "consistent-as-needed"],
     "radix": "error",
     "require-jsdoc": ["error", {
