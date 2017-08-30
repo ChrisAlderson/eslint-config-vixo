@@ -30,7 +30,7 @@
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "prefer-destructuring": ["error", {
-      "array": true,
+      "array": false,
       "object": true
     }],
     "prefer-numeric-literals": "error",
@@ -42,7 +42,7 @@
 
     "max-depth": ["error", 4],
     "max-len": ["error", 80, 2, {
-      "ignoreComments": true,
+      "ignoreComments": false,
       "ignoreTrailingComments": true,
       "ignoreUrls": true,
       "ignoreStrings": true,
