@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ChrisAlderson/eslint-config-vixo.svg?branch=master)](https://travis-ci.org/ChrisAlderson/eslint-config-vixo)
 [![Dependency Status](https://david-dm.org/ChrisAlderson/eslint-config-vixo.svg)](https://david-dm.org/ChrisAlderson/eslint-config-vixo)
-[![devDependency Status](https://david-dm.org/ChrisAlderson/eslint-config-vixo/dev-status.svg)](https://david-dm.org/ChrisAlderson/eslint-config-vixo#info=devDependencies)
+[![devDependency Status](https://david-dm.org/ChrisAlderson/eslint-config-vixo/dev-status.svg)](https://david-dm.org/ChrisAlderson/eslint-config-vixo?type=dev)
 
 Yet another eslint configuration. It follows mostly standard with the exception
 of two rules:
