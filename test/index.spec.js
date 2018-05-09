@@ -3,7 +3,7 @@ const { CLIEngine } = require('eslint')
 const { expect } = require('chai')
 
 const config = require('..')
-const { name } = require('../package')
+const { name } = require('../package.json')
 
 const code = `
 /**
